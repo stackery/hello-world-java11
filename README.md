@@ -26,14 +26,6 @@ Here is an overview of the files:
 │   │           │   └── Handler.java   <-- Lambda function code
 │   │           └── resources
 │   │               └── welcome.html   <-- HTML welcome page returned by function
-│   └── logErrors                      <-- Source code dir for logErrors function
-│       ├── README.md                  <-- Function specific README
-│       ├── build.gradle               <-- Gradle dependencies
-│   │   ├── .stackery-config.yaml      <-- Default CLI parameters for this directory
-│       └── src
-│           └── main
-│               └── java
-│                   └── Handler.java   <-- Lambda function code
 ├── .stackery-config.yaml              <-- Default CLI parameters for root directory
 └── template.yaml                      <-- SAM infrastructure-as-code template
 ```
